@@ -6,7 +6,7 @@
 
 #pragma data_seg("SHAREDATA")
 bool g_bReloading=false;
-bool g_bTransOn = true;
+bool g_bTransOn = true; 
 #pragma data_seg()
 #pragma comment(linker, "/SECTION:SHAREDATA,RWS")
 FILE* g_untranslated_file=NULL;
