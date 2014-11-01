@@ -1,0 +1,9 @@
+[2003.04.12]
+添加Hook/Unhook一个函数
+添加Hook/Unhook一个Process
+
+[2003.04.16]
+代码修改为c++后在winxp和win9x下测试hooksocket成功，版本升级为1.6c
+
+[2003.04.19]
+修改了CHookAPI::UnhookOneAPI()里的针对多次hook的api的修改，只unhook一次

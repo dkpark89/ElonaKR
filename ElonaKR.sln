@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HookAPI", "Elona_KR_DLL\HookAPI.vcxproj", "{44BE059D-3CD8-4684-9140-C108E24DCD2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Elona_KR", "Elona_KR_exe\Elona_KR\Elona_KR.vcxproj", "{945633B4-33DE-471B-A049-45CB75A43C09}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mydll", "MyDll_HookTextOut\mydll.vcxproj", "{27DFF344-F078-4746-9FF8-7957F6170AA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trans_kr", "trans_kr_dll\trans_kr\trans_kr.vcxproj", "{1E135659-DC51-46CF-8490-246BE73D54D7}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Win32 Release for Win95|Win32 = Win32 Release for Win95|Win32
+		Windows 9x Release|Win32 = Windows 9x Release|Win32
+		Windows NT Debug|Win32 = Windows NT Debug|Win32
+		Windows NT Release|Win32 = Windows NT Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Debug|Win32.ActiveCfg = Windows NT Debug|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Debug|Win32.Build.0 = Windows NT Debug|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Release|Win32.ActiveCfg = Windows NT Release|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Release|Win32.Build.0 = Windows NT Release|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Win32 Release for Win95|Win32.ActiveCfg = Windows NT Debug|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Win32 Release for Win95|Win32.Build.0 = Windows NT Debug|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Windows 9x Release|Win32.ActiveCfg = Windows 9x Release|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Windows 9x Release|Win32.Build.0 = Windows 9x Release|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Windows NT Debug|Win32.ActiveCfg = Windows NT Debug|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Windows NT Debug|Win32.Build.0 = Windows NT Debug|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Windows NT Release|Win32.ActiveCfg = Windows NT Release|Win32
+		{44BE059D-3CD8-4684-9140-C108E24DCD2B}.Windows NT Release|Win32.Build.0 = Windows NT Release|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Debug|Win32.ActiveCfg = Debug|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Debug|Win32.Build.0 = Debug|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Release|Win32.ActiveCfg = Release|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Release|Win32.Build.0 = Release|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Win32 Release for Win95|Win32.ActiveCfg = Release|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Win32 Release for Win95|Win32.Build.0 = Release|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Windows 9x Release|Win32.ActiveCfg = Release|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Windows 9x Release|Win32.Build.0 = Release|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Windows NT Debug|Win32.ActiveCfg = Debug|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Windows NT Debug|Win32.Build.0 = Debug|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Windows NT Release|Win32.ActiveCfg = Release|Win32
+		{945633B4-33DE-471B-A049-45CB75A43C09}.Windows NT Release|Win32.Build.0 = Release|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Debug|Win32.Build.0 = Debug|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Release|Win32.ActiveCfg = Release|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Release|Win32.Build.0 = Release|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Win32 Release for Win95|Win32.ActiveCfg = Win32 Release for Win95|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Win32 Release for Win95|Win32.Build.0 = Win32 Release for Win95|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Windows 9x Release|Win32.ActiveCfg = Release|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Windows 9x Release|Win32.Build.0 = Release|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Windows NT Debug|Win32.ActiveCfg = Debug|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Windows NT Debug|Win32.Build.0 = Debug|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Windows NT Release|Win32.ActiveCfg = Release|Win32
+		{27DFF344-F078-4746-9FF8-7957F6170AA0}.Windows NT Release|Win32.Build.0 = Release|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Debug|Win32.Build.0 = Debug|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Release|Win32.ActiveCfg = Release|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Release|Win32.Build.0 = Release|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Win32 Release for Win95|Win32.ActiveCfg = Release|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Win32 Release for Win95|Win32.Build.0 = Release|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Windows 9x Release|Win32.ActiveCfg = Release|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Windows 9x Release|Win32.Build.0 = Release|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Windows NT Debug|Win32.ActiveCfg = Debug|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Windows NT Debug|Win32.Build.0 = Debug|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Windows NT Release|Win32.ActiveCfg = Release|Win32
+		{1E135659-DC51-46CF-8490-246BE73D54D7}.Windows NT Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

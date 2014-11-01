@@ -1,0 +1,13 @@
+EXPORTS
+	GetMyAPIInfo
+	myTabbedTextOutA
+	myDrawTextW
+	myDrawTextExW
+	myExtTextOutW
+	myScriptStringOut
+	myScriptStringAnalyse
+	mySetWindowTextA
+	mylstrcpyA
+	mylstrcpyW
+	mylstrcatA
+	mylstrcatW

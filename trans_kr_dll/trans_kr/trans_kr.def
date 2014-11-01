@@ -1,0 +1,6 @@
+LIBRARY	"trans_kr"
+EXPORTS
+ko_translate
+ko_translate_wo_word
+ko_ReloadDic
+TransOn
